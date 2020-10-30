@@ -23,10 +23,27 @@ public class Main {
                 food.consume();
             else
                 break;
+
         }
         System.out.println("Всего хорошего!");
-
-
+        byte a=0,c=0,t=0;
+        for (Food food:breakfast){
+            if (food != null){
+            if(food.getName().equals("Apple")){
+                a++;}
+            if(food.getName().equals("Cheese")){
+                c++;
+            }
+            if(food.getName().equals("Tea")){
+                t++;
+            }
+            }
+            else
+                break;
+        }
+        System.out.println("kolichestvo Apple = "+a);
+        System.out.println("kolichestvo Cheese = "+c);
+        System.out.println("kolichestvo Tea = "+t);
     }
 }
 

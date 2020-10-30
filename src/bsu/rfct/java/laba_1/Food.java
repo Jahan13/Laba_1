@@ -16,12 +16,10 @@ public abstract class Food implements Consumable {
     }
 
 
-    public boolean equals(Object obj) {
-        if (obj instanceof Food) {
-            return (this.name != null || ((Food) obj).name != null) && this.name.equals(((Food) obj).name);
-        } else {
-            return false;
-        }
+    public boolean equals(Object arg0) {
+        if (!(arg0 instanceof Food)) return false;
+        if (this.name==null || ((Food)arg0).name==null) return false;
+        return name.equals(((Food)arg0).name);
     }
 
     public String toString() {
