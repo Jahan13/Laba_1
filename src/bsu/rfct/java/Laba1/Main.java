@@ -1,6 +1,7 @@
 package bsu.rfct.java.Laba1;
 
-public class Main {public static void main(String[] args) { //Главный метод главного класса
+public class Main {
+    public static void main(String[] args) { //Главный метод главного класса
     Food[] breakfast = new Food[20];
     int i = 0;
     for (String arg : args) {
@@ -21,10 +22,8 @@ public class Main {public static void main(String[] args) { //Главный м�
             food.consume();
         else
             break;
-
     }
     System.out.println("Всего хорошего!");
-
 
     byte a=0,c=0,t=0;
     for (Food food:breakfast){
