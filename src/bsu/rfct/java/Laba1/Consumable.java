@@ -1,6 +1,5 @@
-package bsu.rfct.java.laba_1;
+package bsu.rfct.java.Laba1;
 
 public interface Consumable {
     public abstract void consume();
-
 }

@@ -1,7 +1,7 @@
-package bsu.rfct.java.laba_1;
+package bsu.rfct.java.Laba1;
 
 public class Apple extends Food {
-   private String size = null;
+    private String size = null;
 
     public Apple(String size) {
         super("Apple");
@@ -26,4 +26,3 @@ public class Apple extends Food {
     }
 
 }
-

@@ -1,4 +1,4 @@
-package bsu.rfct.java.laba_1;
+package bsu.rfct.java.Laba1;
 
 public class Cheese extends Food {
     public Cheese() {

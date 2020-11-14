@@ -2,7 +2,11 @@
 <project version="4">
   <component name="ProjectModuleManager">
     <modules>
+<<<<<<< HEAD
       <module fileurl="file://$PROJECT_DIR$/Laba_1.iml" filepath="$PROJECT_DIR$/Laba_1.iml" />
+=======
+      <module fileurl="file://$PROJECT_DIR$/Laba1.iml" filepath="$PROJECT_DIR$/Laba1.iml" />
+>>>>>>> ae01978 (Sliyaniye mybranch s development)
     </modules>
   </component>
 </project>

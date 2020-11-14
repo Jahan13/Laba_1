@@ -1,12 +1,11 @@
-package bsu.rfct.java.laba_1;
+package bsu.rfct.java.Laba1;
 
-public abstract class Food implements Consumable {
+public abstract class Food implements Consumable{
     private String name = null;
 
-    public Food(String name) {
+    public Food(String name){
         this.name = name;
     }
-
     public String getName() {
         return this.name;
     }

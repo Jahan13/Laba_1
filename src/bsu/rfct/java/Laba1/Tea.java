@@ -1,7 +1,7 @@
-package bsu.rfct.java.laba_1;
+package bsu.rfct.java.Laba1;
 
 public class Tea extends Food {
-   private String color = null;
+    private String color = null;
 
     public Tea(String color) {
         super("Tea");
@@ -24,5 +24,3 @@ public class Tea extends Food {
         System.out.println(this + " is drunk");
     }
 }
-
-
